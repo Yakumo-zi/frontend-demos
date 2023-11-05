@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="music-player">
+      <audio class="player" src=""></audio>
+      <div class="tool-bar">
+        <button class="tool-bar-item">
+          <span class="iconfont icon-back"></span>
+        </button>
+        <button class="tool-bar-item">
+          <span class="iconfont icon-sun"></span>
+        </button>
+        <button class="tool-bar-item">
+          <span class="iconfont icon-menu"></span>
+        </button>
+      </div>
+      <div class="song">
+        <div class="song-circle"></div>
+        <img class="song-cover" src="./assets/cover.jpg"></img>
+        <div class="song-name">
+          Song name
+        </div>
+        <div class="song-author">
+          Author
+        </div>
+      </div>
+      <div class="slider">
+        <div class="time">
+          <div class="time-current">mm:ss</div>
+          <div class="time-end">mm:ss</div>
+        </div>
+        <div class="process"></div>
+        <div class="process-bg"></div>
+        <input type="range" max="100" min="0" step="1" />
+      </div>
+      <div class="controll-bar">
+        <button class="controll-bar-item">
+          <span class="iconfont icon-kuaitui "></span>
+        </button>
+        <button class="controll-bar-item">
+          <span class="iconfont icon-bofang"></span>
+        </button>
+        <button class="controll-bar-item">
+          <span class="iconfont icon-kuaijin"></span>
+        </button>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
