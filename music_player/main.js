@@ -19,7 +19,7 @@ slider.addEventListener('input', (e) => {
 
 let deg = 1;
 function rotate(time) {
-    songCover.style.transform = `rotate(-${deg}deg)`;
+    songCover.style.transform = `rotate(${deg}deg)`;
     deg = deg + 1;
     requestAnimationFrame(rotate)
 }

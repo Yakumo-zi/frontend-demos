@@ -25,6 +25,7 @@
     height: 700px;
     width: 350px;
     background-color: var(--theme-color);
+    box-shadow: 5px 5px 80px gray;
 }
 
 .player {
@@ -79,8 +80,8 @@
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    border: 10px solid #f7cac9;
-    box-shadow:5px 5px 40px #353535 ;
+    border: 10px solid var(--theme-color);
+    box-shadow:5px 5px 40px gray ;
 }
 
 .song-name {
